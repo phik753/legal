@@ -20,3 +20,7 @@ Route::get('/', function () {
 Route::get('/tulis', function () {
     return 'welcome';
 });
+
+Route::get('/fitur1_4', function() {
+    return view('fitur1_fitur4');
+});
