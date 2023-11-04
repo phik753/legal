@@ -22,5 +22,22 @@ Route::get('/tulis', function () {
 });
 
 Route::get('/sidebar', function() {
-    return view('sidebar');
+    return view('sidebar'); //ini surat_Masuk tp blm ku rename
 });
+
+Route::get('/surat_keluar', function() {
+    return view('surat_keluar');
+});
+
+Route::get('/daftar_surat_keluar', function() {
+    return view('daftar_surat_keluar');
+});
+
+Route::get('/profile', function() {
+    return view('profil');
+});
+
+Route::get('/kontrak', function() {
+    return view('kontrak');
+});
+

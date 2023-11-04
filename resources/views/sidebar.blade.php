@@ -15,7 +15,7 @@
 <body>
 
     <button data-drawer-target="logo-sidebar" data-drawer-toggle="logo-sidebar" aria-controls="logo-sidebar" type="button"
-        class="inline-flex items-center p-2 mt-2 ml-3 text-sm text-gray-500 rounded-lg sm:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600">
+        class="inline-flex items-center p-2 mt-2 ml-3 text-sm text-gray-500 rounded-lg sm:hidden hover:bg-amber-100 focus:outline-none focus:ring-2 focus:ring-amber-200 dark:text-amber-400 dark:hover:bg-amber-600 dark:focus:ring-amber-600">
         <span class="sr-only">Open sidebar</span>
         <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20"
             xmlns="http://www.w3.org/2000/svg">
@@ -33,6 +33,14 @@
                 <img src="https://flowbite.com/docs/images/logo.svg" class="h-6 mr-3 sm:h-7" alt="Flowbite Logo" />
                 <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Legal</span>
             </a>
+            {{-- //profil --}}
+            <div class="flex items-center justify-center my-6">
+                <div class="items-center justify-center w-full">
+                    <img class="w-1/2 rounded-full mb-2" src="https://www.creative-tim.com/learning-lab/tailwind-starter-kit/img/team-2-800x800.jpg" alt="profil user">
+                    <p>Firda Kusuma Wardani</p>
+                </div>
+            </div>
+
             <ul class="space-y-2 font-medium">
                 <li>
                     <a href="#"
