@@ -41,3 +41,7 @@ Route::get('/kontrak', function() {
     return view('kontrak');
 });
 
+Route::get('/home', function() {
+    return view('homepage');
+});
+
