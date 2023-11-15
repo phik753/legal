@@ -45,3 +45,12 @@ Route::get('/home', function() {
     return view('homepage');
 });
 
+//
+Route::get('/homedump', function() {
+    return view('cobahomepage');
+});
+
+Route::get('/pelaporan_hukum', function() {
+    return view('pelaporan_hukum');
+});
+

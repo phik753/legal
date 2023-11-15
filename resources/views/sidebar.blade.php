@@ -36,8 +36,8 @@
             {{-- //profil --}}
             <div class="flex items-center justify-center my-6">
                 <div class="items-center justify-center w-full">
-                    <img class="w-1/2 rounded-full mb-2" src="https://www.creative-tim.com/learning-lab/tailwind-starter-kit/img/team-2-800x800.jpg" alt="profil user">
-                    <p>Firda Kusuma Wardani</p>
+                    <img class="w-1/2 rounded-full mb-2 ml-14" src="https://www.creative-tim.com/learning-lab/tailwind-starter-kit/img/team-2-800x800.jpg" alt="profil user">
+                    <p class="text-center">Firda Kusuma Wardani</p>
                 </div>
             </div>
 
@@ -213,6 +213,131 @@
         </div>
     </div>
 
-</body>
+    <div class="p-4 sm:ml-64">
+        <div class="p-4 border-2 border-white">
+            <div class="grid grid-cols-2 gap-4 mb-4">
+                <div class="flex py-8 h-24 rounded bg-gray-50 dark:bg-clear-400">
+                    <p class="w-5.5 h-3.5 text-zinc-800 text-5xl font-extrabold font-['Poppins']">Surat Masuk
+                    </p>
+                </div>
+                {{-- <div class="flex items-center justify-center h-24 rounded bg-gray-50 dark:bg-gray-800">
+             <p class="text-2xl text-gray-400 dark:text-gray-500">
+                <svg class="w-3.5 h-3.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 18">
+                   <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 1v16M1 9h16"/>
+                </svg>
+             </p>
+          </div> --}}
+            </div>
+            {{-- <div class="flex items-center justify-center h-48 mb-4 rounded bg-gray-50 dark:bg-gray-800">
+          <p class="text-2xl text-gray-400 dark:text-gray-500">
+             <svg class="w-3.5 h-3.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 18">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 1v16M1 9h16"/>
+             </svg>
+          </p>
+       </div> --}}
 
+
+            <div class="grid grid-cols-2 gap-4 mb-4">
+                <div class="flex rounded bg-gray-50 h-28 dark:bg-clear-300">
+                    <div class="mb-4 w-full">
+                        <label for="large-input"
+                            class="block mb-4 text-slate-500 text-3xl font-semibold font-['Poppins']">Nama
+                            Instansi</label>
+                        <input type="text" id="large-input"
+                            class="block w-full p-4 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 sm:text-md focus:ring-blue-500 focus:border-blue-500 dark:bg-clear-700 dark:border-gray-400 dark:placeholder-gray-400 dark:text-black dark:focus:ring-amber-500 dark:focus:border-blue-500">
+                    </div>
+                </div>
+                <div class="flex rounded bg-gray-50 h-28 dark:bg-clear-300">
+                    <div class="mb-4 w-50">
+                        <label for="drop-down"
+                            class="block mb-4 text-slate-500 text-3xl font-semibold font-['Poppins']">Perihal</label>
+                        <button id="dropdownHoverButton" data-dropdown-toggle="dropdownHover"
+                            data-dropdown-trigger="hover"
+                            class="w-full px-5 py-4 text-white bg-amber-600 hover:bg-amber-700 focus:ring-4 focus:outline-none focus:ring-amber-300 font-medium rounded-lg text-md px-5 py-2.5 text-center inline-flex items-center dark:bg-amber-600 dark:hover:bg-amber-700 dark:focus:ring-amber-600"
+                            type="button">Pilih Perihal <svg class="w-3.5 h-2.5 ml-20" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2" d="m1 1 4 4 4-4" />
+                            </svg>
+                        </button>
+
+                        <!-- Dropdown menu -->
+                        <div id="dropdownHover"
+                            class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-white-700">
+                            <ul class="py-2 text-sm text-slate-700 dark:text-slate-700"
+                                aria-labelledby="dropdownHoverButton">
+                                <li>
+                                    <a href="#"
+                                        class="block px-4 py-2 hover:bg-slate-100 dark:hover:bg-amber-600 dark:hover:text-white">Kerjasama</a>
+                                </li>
+                                <li>
+                                    <a href="#"
+                                        class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-amber-600 dark:hover:text-white">Merger</a>
+                                </li>
+                                <li>
+                                    <a href="#"
+                                        class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-amber-600 dark:hover:text-white">Saham</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div class="flex rounded bg-gray-50 h-28 dark:bg-clear-400">
+                    <div class="mb-4 w-full">
+                        <label for="large-input"
+                            class="block mb-4 text-slate-500 text-3xl font-semibold font-['Poppins']">Judul
+                            Surat</label>
+                        <input type="text" id="large-input"
+                            class="block w-full p-4 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 sm:text-md focus:ring-blue-500 focus:border-blue-500 dark:bg-clear-700 dark:border-gray-400 dark:placeholder-gray-400 dark:text-black dark:focus:ring-amber-500 dark:focus:border-blue-500">
+                    </div>
+                </div>
+                {{-- <div class="flex items-center justify-center rounded bg-gray-50 h-28 dark:bg-gray-800">
+                    <p class="text-2xl text-gray-400 dark:text-gray-500">
+                        balqis
+                    </p>
+                </div> --}}
+            </div>
+            {{-- <div class="flex items-center justify-center h-48 mb-4 rounded bg-gray-50 dark:bg-gray-800">
+          <p class="text-2xl text-gray-400 dark:text-gray-500">
+             <svg class="w-3.5 h-3.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 18">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 1v16M1 9h16"/>
+             </svg>
+          </p>
+       </div> --}}
+            <div class="grid grid-cols-2 gap-4">
+                <div class="flex rounded bg-gray-50 h-28 dark:bg-clear-400">
+                    <div class="mb-4 w-full">
+                        <label for="large-input"
+                            class="block mb-4 text-slate-500 text-3xl font-semibold font-['Poppins']">Nomor
+                            Surat</label>
+                        <input type="text" id="large-input"
+                            class="block w-full p-4 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 sm:text-md focus:ring-blue-500 focus:border-blue-500 dark:bg-clear-700 dark:border-gray-400 dark:placeholder-gray-400 dark:text-black dark:focus:ring-amber-500 dark:focus:border-blue-500">
+                    </div>
+                </div>
+                <div class="flex items-center justify-center rounded bg-gray-50 h-28 dark:bg-clear-800">
+                    <div class="mb-4 w-full">
+                        <label for="large-input"
+                            class="block mb-4 text-slate-500 text-3xl font-semibold font-['Poppins']">
+                            Upload File</label>
+                            <input class="block w-full text-lg text-gray-900 border border-gray-300 rounded-lg cursor-pointer bg-gray-50 dark:text-gray-400 focus:outline-none dark:bg-white-700 dark:border-gray-600 dark:placeholder-gray-400" id="large_size" type="file">
+                    </div>
+                </div>
+                <div class="flex items-center justify-center rounded bg-gray-50 h-28 dark:bg-clear-800">
+                    <button type="button"
+                        class="px-6 py-3.5 w-full text-base font-medium text-white bg-amber-700 hover:bg-amber-800 focus:ring-4 focus:outline-none focus:ring-amber-300 rounded-lg text-center dark:bg-amber-600 dark:hover:bg-amber-700 dark:focus:ring-amber-800">Submit</button>
+                </div>
+                {{-- <div class="flex items-center justify-center rounded bg-gray-50 h-28 dark:bg-gray-800">
+                    <p class="text-2xl text-gray-400 dark:text-gray-500">
+                        andin
+                    </p>
+                </div> --}}
+            </div>
+        </div>
+    </div>
+
+
+</body>
 </html>
