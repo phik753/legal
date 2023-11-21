@@ -54,3 +54,7 @@ Route::get('/pelaporan_hukum', function() {
     return view('pelaporan_hukum');
 });
 
+
+Route::get('/regulasi', function() {
+    return view('regulasi');
+});
