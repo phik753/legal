@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Cek Status Pelaporan Hukum</title>
+    <title>Status Surat Masuk</title>
 
     <script src="https://cdn.tailwindcss.com"></script>
 
@@ -93,10 +93,10 @@
 
     {{-- content --}}
     <div class="p-4 sm:ml-64">
-        <div class="p-4 border-2 border-white">
+        <div class="p-4 border-2 border-black">
             <div class="grid grid-cols-2 gap-4 mb-4">
                 <div class="flex py-8 h-24 rounded bg-gray-50 dark:bg-clear-400">
-                    <p class="w-5.5 h-3.5 text-zinc-800 text-4xl font-extrabold font-['Poppins']">Status Pelaporan Hukum
+                    <p class="w-5.5 h-3.5 text-zinc-800 text-5xl font-extrabold font-['Poppins']">Status Surat Masuk
                     </p>
                 </div>
                 {{-- <div class="flex items-center justify-center h-24 rounded bg-gray-50 dark:bg-gray-800">
@@ -108,28 +108,31 @@
             </div> --}}
             </div>
 
-            {{-- content table --}}
-            <div class="relative overflow-x-auto shadow-md sm:rounded-lg">
+            {{-- table --}}
+            <div class="relative overflow-x-auto">
                 <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
                     <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
                         <tr>
                             <th scope="col" class="px-6 py-3">
-                                ID Pelaporan
-                            </th>
-                            <th scope="col" class="px-6 py-3">
-                                Nama Pelapor
-                            </th>
-                            <th scope="col" class="px-6 py-3">
-                                NIP
-                            </th>
-                            <th scope="col" class="px-6 py-3">
-                                Divisi
-                            </th>
-                            <th scope="col" class="px-6 py-3">
-                                Bukti
+                                Nomor Surat
                             </th>
                             <th scope="col" class="px-6 py-3">
                                 Perihal
+                            </th>
+                            <th scope="col" class="px-6 py-3">
+                                Masuk
+                            </th>
+                            <th scope="col" class="px-6 py-3">
+                                Tenggat
+                            </th>
+                            <th scope="col" class="px-6 py-3">
+                                Email
+                            </th>
+                            <th scope="col" class="px-6 py-3">
+                                PDF
+                            </th>
+                            <th scope="col" class="px-6 py-3">
+                                kET
                             </th>
                         </tr>
                     </thead>
@@ -149,8 +152,10 @@
                                 $2999
                             </td>
                             <td class="px-6 py-4">
-                                <a href="#"
-                                    class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Approved</a>
+                                $2999
+                            </td>
+                            <td class="px-6 py-4">
+                                $2999
                             </td>
                             <td class="px-6 py-4">
                                 $2999
@@ -171,8 +176,10 @@
                                 $1999
                             </td>
                             <td class="px-6 py-4">
-                                <a href="#"
-                                    class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Approved</a>
+                                $2999
+                            </td>
+                            <td class="px-6 py-4">
+                                $2999
                             </td>
                             <td class="px-6 py-4">
                                 $2999
@@ -193,8 +200,10 @@
                                 $99
                             </td>
                             <td class="px-6 py-4">
-                                <a href="#"
-                                    class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Approved</a>
+                                $2999
+                            </td>
+                            <td class="px-6 py-4">
+                                $2999
                             </td>
                             <td class="px-6 py-4">
                                 $2999
@@ -203,6 +212,12 @@
                     </tbody>
                 </table>
             </div>
+
+            {{-- end table --}}
+        </div>
+    </div>
+
+
 
 
 </body>

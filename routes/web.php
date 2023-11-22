@@ -62,3 +62,7 @@ Route::get('/regulasi', function() {
 Route::get('/cek_status_hukum', function() {
     return view('cek_status_pelaporan_hukum');
 });
+
+Route::get('/status_surat_masuk', function() {
+    return view('status_suratMasuk');
+});
