@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\pelaporanHukumController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -53,6 +54,8 @@ Route::get('/homedump', function() {
 Route::get('/pelaporan_hukum', function() {
     return view('pelaporan_hukum');
 });
+
+Route::get('/pelaporan_hukum/create', [pelaporanHukumController::class, 'create']);
 
 
 Route::get('/regulasi', function() {
